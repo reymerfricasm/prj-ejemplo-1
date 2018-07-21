@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="15dp"
+    android:paddingStart="15dp"
+    android:orientation="vertical"
+    tools:context=".UserItemActivity">
+
+    <TextView
+        android:id="@+id/textName"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:paddingTop="5dp"
+        android:paddingBottom="5dp"
+        android:textStyle="bold"
+        android:textSize="18sp"
+        android:textColor="@android:color/black"
+        tools:text="Reymer Fricas Moscoso"
+        />
+    <TextView
+        android:id="@+id/textAddress"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:paddingTop="5dp"
+        android:paddingBottom="5dp"
+        android:textColor="@android:color/darker_gray"
+        android:textSize="16sp"
+        android:text="C/ Los Cerros #1"
+        />
+</LinearLayout>
